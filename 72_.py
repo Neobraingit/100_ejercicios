@@ -4,5 +4,5 @@ reemplazar una palabra de la frase con dicha palabra'''
 frase = input('Introduce una frase: ')
 palabra = input ('Introduce una palabra: ')
 
-frase.replace('Esto', palabra)
+frase = frase.replace('Esto', palabra)
 print (frase)
