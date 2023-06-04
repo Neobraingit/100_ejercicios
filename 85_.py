@@ -5,7 +5,7 @@ def buscar(lista, elemento):
     for i in lista:
         # Buscamos el elemento en la lista
         if elemento in lista:
-         print (elemento)
+         print  (elemento)
             
 lista = [1, 2, 3, 4, 5]
 buscar(lista, 2)
