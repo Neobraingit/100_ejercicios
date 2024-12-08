@@ -1,5 +1,6 @@
 
 import argparse
+from termcolor import colored
 
 parser = argparse.ArgumentParser(description='Contador de vocales')
 parser.add_argument('-f', '--frase', type=str, required=True,help='Dime una frase')
@@ -13,6 +14,6 @@ def contar_vocales():
     for i in args.frase:
         if i in vocales:
             contador += 1
-    print (f'La frase tiene {contador} vocales')
+    print (colored(f'La frase tiene {contador} vocales', 'green'))
 
 contar_vocales()
