@@ -7,6 +7,6 @@ parser.add_argument('-n', '--numero', type=int, required=True,help='Dime un núm
 
 args = parser.parse_args()
 
-for i in range (11, 0, -1):
+for i in range (10, 0, -1):
    resultado =  i * args.numero
-   print (colored(f'{args.numero} x {i} = {resultado}', 'red'))
+   print (colored(f'{args.numero} x {i} = {resultado}', 'yellow'))
